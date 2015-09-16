@@ -87,21 +87,15 @@ namespace QuizTool
             //Draw Sum of Scores
             gfx.DrawString(string.Format("Sum: {0}/{1}. Percentage: {2}%", studentScore, Questions.Count, percentage), titleFont, XBrushes.Black, new XRect(0, 70 + modifier + incrementtwo + Questions.Count * increment, page.Width, page.Height), XStringFormats.TopCenter);
 
-            string filename = string.Format("{0} - {1}.pdf", Title, StudentName);
-            StringBuilder builder = new StringBuilder();
-            foreach(char character in filename)
-            {
-                if (char.IsLetterOrDigit(character))
-                {
-                    builder.Append(character);
-                }
-                else
-                {
-                    builder.Append('-');
-                }
-            }
-            document.Save(builder.ToString()+".pdf");
-            System.Diagnostics.Process.Start(builder.ToString()+".pdf");
+            //Set filename equal to Title - StudentName
+            string tempfilename = string.Format("{0} - {1}.pdf", Title, StudentName);
+
+            //Remove any illegal characters from filename
+            var illegalChars = Path.GetInvalidFileNameChars();
+            string filename = new string(tempfilename.Where(x => !illegalChars.Contains(x)).ToArray());
+
+            document.Save(filename);
+            System.Diagnostics.Process.Start(filename);
         }
     }
 }

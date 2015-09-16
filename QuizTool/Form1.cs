@@ -227,7 +227,6 @@ namespace QuizTool
         {
             if(e.KeyCode == Keys.Enter)
             {
-                optionsbox.SetItemChecked(0, true);
                 submitanswer_Click(null, null);
                 e.Handled = true;
             }
