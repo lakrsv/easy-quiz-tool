@@ -9,6 +9,7 @@ namespace QuizTool
 {
     class QuizEncryptorDecryptor
     {
+        //It is important to change this key.
         internal const string InputKey = "4K3420D2K2D3L-23EJKDWED023E329DKDWE-EKQWLDI32UEJDAKL32";
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2202:Do not dispose objects multiple times")]
