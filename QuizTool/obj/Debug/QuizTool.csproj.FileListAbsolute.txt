@@ -1,0 +1,15 @@
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\QuizTool.exe.config
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\QuizTool.exe
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\QuizTool.pdb
+D:\LarsCodeStuff\QuizTool\QuizTool\obj\Debug\QuizTool.csprojResolveAssemblyReference.cache
+D:\LarsCodeStuff\QuizTool\QuizTool\obj\Debug\QuizTool.Form1.resources
+D:\LarsCodeStuff\QuizTool\QuizTool\obj\Debug\QuizTool.Properties.Resources.resources
+D:\LarsCodeStuff\QuizTool\QuizTool\obj\Debug\QuizTool.csproj.GenerateResource.Cache
+D:\LarsCodeStuff\QuizTool\QuizTool\obj\Debug\QuizTool.exe
+D:\LarsCodeStuff\QuizTool\QuizTool\obj\Debug\QuizTool.pdb
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\PdfSharp.Charting.dll
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\PdfSharp.dll
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\PdfSharp.xml
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\PdfSharp.Charting.xml
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\de\PdfSharp.resources.dll
+D:\LarsCodeStuff\QuizTool\QuizTool\bin\Debug\de\PdfSharp.Charting.resources.dll

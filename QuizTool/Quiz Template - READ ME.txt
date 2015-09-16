@@ -1,0 +1,21 @@
+﻿//How-To:
+//1. Copy this file and rename it to Quiz.txt
+//2. Follow syntax to create questions.
+//3. Run program once to encrypt the Quiz (WARNING: YOU WILL LOSE YOUR ORIGINAL QUIZ.TXT)
+//4. Done! Now someone else can do the quiz!
+
+//Syntax to create a Quiz
+
+//Title:"Your Quiz Title Here"
+//Q:"Your Question Here" "AnswerOption1" "AnswerOption2" "AnswerOption3",.....,"AnswerOption10" "Actual Answer"
+//Remember, Actual Answers are CaSe-SeNsItIvE! And has to be equal to one of the options!
+//You can not use COMMENTS(") inside of questions!
+//Example Syntax:
+Title: "Did I read this file"
+Q:"What can you not put inside of questions, options or answers?" "Numbers" "Comments" "Apostrophe's" "Comments"
+Q:"How do you define a quiz title?" "Title: WITH COMMENTS" "QuizTitle:" "Title:" "Title: WITH COMMENTS"
+Q:"How many answer options can you have?" "Only 3" "Only 4" "Many more" "Many more" "Many many many more" "A lot" "Very many" "As many as you want" "As many as you want"
+Q:"Are the Options/Answers Case-Sensitive?" "No" "YeS ThEy ArE" "Yes they are" "YeS ThEy ArE"
+Q:"What do you do after making a quiz?" "Nothing, quiz is ready" "Run the application once for encryption" "Run the application once for encryption"
+Q:"Why do you run the application once?" "To be cool" "To encrypt the quiz.txt file" "To encrypt the quiz.txt file"
+Q:"What happens when you encrypt the quiz.txt file?" "You lose the original permanently!" "Nothing happens" "You lose the original permanently!"
