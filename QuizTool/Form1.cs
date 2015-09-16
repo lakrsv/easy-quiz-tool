@@ -16,6 +16,7 @@ namespace QuizTool
     {
         private bool CloseApplication = false;
         public static string QuizText;
+        //It is important to change this key
         internal const string Salt = "3KDJS0K3JD932KE32JDL2";
         public string StudentName;
         private int _totalScore = 0;
