@@ -9,7 +9,7 @@ namespace QuizTool
 {
     class QuizEncryptorDecryptor
     {
-        internal const string InputKey = "495FK3039DE-34294KF-2349-1394328FDKFM2";
+        internal const string InputKey = "4K3420D2K2D3L-23EJKDWED023E329DKDWE-EKQWLDI32UEJDAKL32";
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2202:Do not dispose objects multiple times")]
         public static string EncryptRijndael(string text, string Salt)
