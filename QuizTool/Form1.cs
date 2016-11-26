@@ -101,14 +101,26 @@ namespace QuizTool
         {
             while (!Ready)
             {
-                questionbox.Text = "Please wait.";
-                if (Ready) { questionbox.Text = "Press Start Quiz when you are ready!"; break; }
+                questionbox.Invoke((MethodInvoker)delegate { questionbox.Text = "Please wait.."; });
+                if (Ready)
+                {
+                    questionbox.Invoke((MethodInvoker)delegate { questionbox.Text = "Press Start Quiz when you are ready!"; });
+                    break;
+                }
                 Thread.Sleep(1000);
-                questionbox.Text = "Please wait..";
-                if (Ready) { questionbox.Text = "Press Start Quiz when you are ready!"; break; }
+                questionbox.Invoke((MethodInvoker)delegate { questionbox.Text = "Please wait.."; });
+                if (Ready)
+                {
+                    questionbox.Invoke((MethodInvoker)delegate { questionbox.Text = "Press Start Quiz when you are ready!"; });
+                    break;
+                }
                 Thread.Sleep(1000);
-                questionbox.Text = "Please wait...";
-                if (Ready) { questionbox.Text = "Press Start Quiz when you are ready!"; break; }
+                questionbox.Invoke((MethodInvoker)delegate { questionbox.Text = "Please wait.."; });
+                if (Ready)
+                {
+                    questionbox.Invoke((MethodInvoker)delegate { questionbox.Text = "Press Start Quiz when you are ready!"; });
+                    break;
+                }
                 Thread.Sleep(1000);
             }
 

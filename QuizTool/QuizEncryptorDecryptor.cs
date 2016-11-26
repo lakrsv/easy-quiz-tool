@@ -68,7 +68,7 @@ namespace QuizTool
             }
             catch
             {
-                MessageBox.Show("Fuck you hacka!!");
+                MessageBox.Show("Error while trying to decrypt text!!");
                 return null;
             }
         }
